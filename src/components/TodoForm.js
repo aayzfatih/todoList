@@ -32,7 +32,7 @@ function TodoForm(props) {
             onChange={handleChange}
             ref={inputRef}
           />
-          <button className="todo-button edit"> Update </button>
+          <button className="todo-button edit"> Update Todo </button>
         </React.Fragment>
       ) : (
         <React.Fragment>
